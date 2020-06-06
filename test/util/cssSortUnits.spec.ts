@@ -4,7 +4,7 @@ chai.use(assertArrays);
 
 import cssUnitSort from '../../src/util/cssSortUnits';
 
-describe('css-sort-unit', () => {
+describe('cssSortUnits', () => {
     it('should sort css units', () => {
         expect(
             cssUnitSort([
