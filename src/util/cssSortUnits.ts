@@ -41,6 +41,6 @@ export const compareUnits = (unit1: string, unit2: string): number => {
     return numericUnit1 < numericUnit2 ? 1 : -1;
 };
 
-const cssUnitSort = (units: string[]): string[] => units.sort(compareUnits);
+const cssSortUnits = (units: string[]): string[] => units.sort(compareUnits);
 
-export default cssUnitSort;
+export default cssSortUnits;

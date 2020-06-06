@@ -2,7 +2,7 @@ import chai, { expect } from 'chai';
 import assertArrays from 'chai-arrays';
 chai.use(assertArrays);
 
-import cssUnitSort from '../../src/util/cssUnitSort';
+import cssUnitSort from '../../src/util/cssSortUnits';
 
 describe('css-sort-unit', () => {
     it('should sort css units', () => {
