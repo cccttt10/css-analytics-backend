@@ -46,7 +46,7 @@
   },
   "license": "ISC",
   "main": "index.js",
-  "name": "css-visual-backend",
+  "name": "css-analytics-backend",
   "scripts": {
     "build": "bash tsc-clean.sh && npm run check && npm run tsc-build",
     "check": "npm run prettier-check && npm run eslint-check && npm run tsc-check",
