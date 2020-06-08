@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "allowJs": true,
         "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
         "esModuleInterop": true,
@@ -17,10 +18,11 @@
         "typeRoots": [
             "src/types/",
             "node_modules/@types/"
-        ]
+        ],
+        "outDir": "./build/"
     },
     "filesGlob": [
         "src/**/*.ts",
-        "test/**/*.ts"
+        "test/**/*.ts",
     ]
 }

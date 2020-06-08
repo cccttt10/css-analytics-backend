@@ -16,4 +16,12 @@ declare module 'global' {
     interface Resets {
         [property: string]: number;
     }
+
+    interface Link {
+        link: string;
+        url: string;
+        css: string;
+        error?: Error;
+        imports?: string[];
+    }
 }

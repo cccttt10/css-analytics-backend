@@ -5,7 +5,10 @@ config.env
 *.icloud
 .DS_Store
 .nyc_output/
+
 src/**/*.js
+!src/util/getCss/index.js
+
 src/**/*.map
 test/**/*.js
 test/**/*.map
