@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import isVendorPrefixed from '../../src/util/isVendorPrefixed/';
+import isVendorPrefixed from '../../../src/util/isVendorPrefixed';
 
 const prefixedProperties: string[] = [
     '-ms-background-image',

@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import hasClassSelector from '../../src/util/hasClassSelector/';
+import hasClassSelector from '../../../src/util/hasClassSelector';
 
 const classSelectors: string[] = [
     '.foo',

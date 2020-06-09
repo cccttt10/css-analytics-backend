@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import hasPseudoElement from '../../src/util/hasPseudoElement';
+import hasPseudoElement from '../../../src/util/hasPseudoElement';
 
 const pseudoElements: string[] = [
     ':selection',

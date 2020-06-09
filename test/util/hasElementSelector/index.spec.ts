@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import hasElementSelector from '../../src/util/hasElementSelector/';
+import hasElementSelector from '../../../src/util/hasElementSelector';
 
 describe('hasElementSelector', () => {
     expect(hasElementSelector('#foo.bar li:first-child')).to.equal(true);

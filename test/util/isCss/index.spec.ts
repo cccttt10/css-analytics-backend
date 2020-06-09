@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import isCss from '../../src/util/isCss';
+import isCss from '../../../src/util/isCss';
 
 const cssPaths: string[] = [
     'foo/file.css',

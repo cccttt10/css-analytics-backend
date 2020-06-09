@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import hasAttributeSelector from '../../src/util/hasAttributeSelector';
+import hasAttributeSelector from '../../../src/util/hasAttributeSelector';
 
 const attributeSelectors: string[] = ['[hidden]', '[disabled]', '[type="string"]'];
 

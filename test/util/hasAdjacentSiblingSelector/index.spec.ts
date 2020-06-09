@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import hasAdjacentSiblingSelector from '../../src/util/hasAdjacentSiblingSelector';
+import hasAdjacentSiblingSelector from '../../../src/util/hasAdjacentSiblingSelector';
 
 const adjacentSiblingSelectors: string[] = ['li + li', '#foo .bar .baz + .baz'];
 

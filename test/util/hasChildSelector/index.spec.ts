@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import hasChildSelector from '../../src/util/hasChildSelector';
+import hasChildSelector from '../../../src/util/hasChildSelector';
 
 const childSelectors: string[] = ['ul>li', '.foo > .bar'];
 

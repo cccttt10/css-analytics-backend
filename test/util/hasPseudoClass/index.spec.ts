@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import hasPseudoClass from '../../src/util/hasPseudoClass';
+import hasPseudoClass from '../../../src/util/hasPseudoClass';
 
 const pseudoClasses: string[] = [
     ':not(a)',

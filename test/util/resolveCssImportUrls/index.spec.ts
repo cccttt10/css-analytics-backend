@@ -1,7 +1,7 @@
 import chai, { expect } from 'chai';
 import assertArrays from 'chai-arrays';
 chai.use(assertArrays);
-import resolveCssImports from '../../src/util/resolveCssImportUrls';
+import resolveCssImports from '../../../src/util/resolveCssImportUrls';
 
 describe('resolveCssImports', () => {
     it('should handle import statements', () => {

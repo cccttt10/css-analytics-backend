@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import cssUrlRegex from '../../src/util/cssUrlRegex/';
+import cssUrlRegex from '../../../src/util/cssUrlRegex';
 
 const matches: string[] = [
     'url(foo.css)',

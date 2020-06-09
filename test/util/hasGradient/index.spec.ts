@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import hasGradient from '../../src/util/hasGradient';
+import hasGradient from '../../../src/util/hasGradient';
 
 const gradients: string[] = [
     'linear-gradient(white, tomato)',

@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import hasIdSelector from '../../src/util/hasIdSelector/';
+import hasIdSelector from '../../../src/util/hasIdSelector';
 
 const idSelectors: string[] = [
     '.foo #bar',

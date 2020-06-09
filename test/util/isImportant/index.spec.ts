@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import isImportant from '../../src/util/isImportant';
+import isImportant from '../../../src/util/isImportant';
 
 const importantValues: string[] = [
     'blue !important',
