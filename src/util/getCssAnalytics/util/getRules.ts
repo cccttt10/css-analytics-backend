@@ -2,7 +2,7 @@ import { Rules } from 'global';
 import _ from 'lodash';
 import postcss from 'postcss';
 
-const rules = (root: postcss.Root): Rules => {
+const getRules = (root: postcss.Root): Rules => {
     const result: Rules = {
         total: 0,
         size: {
@@ -42,4 +42,4 @@ const rules = (root: postcss.Root): Rules => {
     return result;
 };
 
-export default rules;
+export default getRules;

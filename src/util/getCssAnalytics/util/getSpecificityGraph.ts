@@ -1,8 +1,9 @@
+import { Graph } from 'global';
 import isBlank from 'is-blank';
 import isPresent from 'is-present';
 import specificity from 'specificity';
 
-const getSpecificityGraph = (selectors: string[]): number[] | false => {
+const getSpecificityGraph = (selectors: string[]): Graph | false => {
     if (isBlank(selectors)) {
         return false;
     }

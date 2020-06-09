@@ -1,6 +1,6 @@
 import { Properties } from 'global';
 
-import isVendorPrefixed from '../../isVendorPrefixed/';
+import isVendorPrefixed from '../../isVendorPrefixed';
 
 const getVendorPrefixedProperties = (
     properties: Properties
