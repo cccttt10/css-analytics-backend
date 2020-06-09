@@ -30,6 +30,14 @@ const getStylesheet = (name: string): string => {
 const generateJSON = (filename: string): void => {
     const css = getStylesheet(filename);
     const analytics = getCssAnalytics(css);
+    const outDir = './test/util/getCssAnalytics/results/';
+    const outFile = outDir + filename + '.json';
+    if (!fs.existsSync(outDir)) {
+        fs.mkdirSync(outDir);
+    }
+    if (fs.existsSync(outFile)) {
+        fs.unlinkSync(outFile);
+    }
     fs.writeFileSync(
         './test/util/getCssAnalytics/results/' + filename + '.json',
         JSON.stringify(analytics, null, 2)
