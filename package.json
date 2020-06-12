@@ -97,6 +97,7 @@
   "scripts": {
     "build": "npm run check && npm run tsc-build",
     "check": "npm run prettier-check && npm run eslint-check && npm run tsc-check",
+    "dist": "sh ./dist.sh",
     "eslint-check": "eslint --no-error-on-unmatched-pattern src/**/*.ts src/**/*.js test/**/*.ts",
     "eslint-fix": "eslint --no-error-on-unmatched-pattern src/**/*.ts src/**/*.js test/**/*.ts --fix",
     "fix": "npm run prettier-fix && npm run eslint-fix",
