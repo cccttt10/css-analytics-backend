@@ -1,1 +1,1 @@
-web: heroku config:set NPM_CONFIG_PRODUCTION=false YARN_PRODUCTION=false && echo "start build" && npm run build && echo "finished build" && npm run start-prod
+web: echo "start build" && npm run build && echo "finished build" && npm run start-prod
