@@ -33,7 +33,7 @@ export default class App {
                 credentials: true,
                 origin:
                     process.env.NODE_ENV === 'production'
-                        ? 'https://css-analytics.netlify.app/'
+                        ? 'https://css-analytics.netlify.app'
                         : 'http://localhost:8000',
             })
         );
