@@ -25,37 +25,37 @@ export const normalizePort = (val: number | string): number | string | false => 
 
 export const stdout = {
     error: (message: string): void => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (process.env.NODE_ENV === 'production') {
             consola.error(message);
         }
     },
     info: (message: string): void => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (process.env.NODE_ENV === 'production') {
             consola.info(message);
         }
     },
     log: (message: string): void => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (process.env.NODE_ENV === 'production') {
             consola.log(message);
         }
     },
     ready: (message: string): void => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (process.env.NODE_ENV === 'production') {
             consola.ready(message);
         }
     },
     success: (message: string): void => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (process.env.NODE_ENV === 'production') {
             consola.success(message);
         }
     },
     warn: (message: string): void => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (process.env.NODE_ENV === 'production') {
             consola.warn(message);
         }
     },
     printResponse: (res: request.Response): void => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (process.env.NODE_ENV === 'production') {
             // eslint-disable-next-line no-console
             console.log(colors.green(`Response status: ${res.status}`));
             // eslint-disable-next-line no-console
