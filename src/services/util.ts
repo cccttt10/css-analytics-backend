@@ -55,16 +55,18 @@ export const stdout = {
         }
     },
     printResponse: (res: request.Response): void => {
-        // eslint-disable-next-line no-console
-        console.log(colors.green(`Response status: ${res.status}`));
-        // eslint-disable-next-line no-console
-        console.log(colors.green('Response header:'));
-        // eslint-disable-next-line no-console
-        console.log(colors.green(JSON.stringify(res.header, undefined, 4)));
-        // eslint-disable-next-line no-console
-        console.log(colors.green('Response body: '));
-        // eslint-disable-next-line no-console
-        console.log(colors.green(JSON.stringify(res.body, undefined, 4)));
+        if (process.env.NODE_ENV !== 'production') {
+            // eslint-disable-next-line no-console
+            console.log(colors.green(`Response status: ${res.status}`));
+            // eslint-disable-next-line no-console
+            console.log(colors.green('Response header:'));
+            // eslint-disable-next-line no-console
+            console.log(colors.green(JSON.stringify(res.header, undefined, 4)));
+            // eslint-disable-next-line no-console
+            console.log(colors.green('Response body: '));
+            // eslint-disable-next-line no-console
+            console.log(colors.green(JSON.stringify(res.body, undefined, 4)));
+        }
     },
 };
 
