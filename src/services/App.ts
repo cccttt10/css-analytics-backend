@@ -28,7 +28,15 @@ export default class App {
         /*
         configure cross origin
         */
-        this.app.use(cors({ credentials: true, origin: 'http://localhost:8000' }));
+        this.app.use(
+            cors({
+                credentials: true,
+                origin:
+                    process.env.NODE_ENV === 'production'
+                        ? 'https://css-analytics.netlify.app/'
+                        : 'http://localhost:8000',
+            })
+        );
 
         /*
         configure express
