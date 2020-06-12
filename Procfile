@@ -1,1 +1,1 @@
-web: npm run build && npm run start-prod
+web: echo "start build" && npm run build && npm run start-prod && echo "finished build"
