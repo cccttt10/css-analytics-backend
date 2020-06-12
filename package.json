@@ -7,7 +7,6 @@
     "colors": "^1.4.0",
     "consola": "^2.12.2",
     "cors": "^2.8.5",
-    "cross-env": "^7.0.2",
     "css-color-list": "0.0.2",
     "css-selector-parser": "^1.4.1",
     "css-selector-tokenizer": "^0.7.2",
@@ -41,9 +40,6 @@
     "specificity": "^0.3.2",
     "strip-html-comments": "^1.0.0",
     "strip-wayback-toolbar": "^1.0.4",
-    "supertest": "^4.0.2",
-    "ts-mocha": "^7.0.0",
-    "typescript": "^3.9.2",
     "ua-string": "^3.1.0",
     "url": "^0.11.0",
     "vendor-prefixes": "^1.0.0"
@@ -81,6 +77,7 @@
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "chai": "^4.2.0",
+    "cross-env": "^7.0.2",
     "eslint": "^7.0.0",
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "husky": "^4.2.5",
@@ -89,7 +86,9 @@
     "nyc": "^11.3.0",
     "prettier": "^2.0.5",
     "source-map-support": "^0.5.19",
-    "ts-node": "^8.10.1"
+    "supertest": "^4.0.2",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
   },
   "license": "ISC",
   "main": "index.js",
